@@ -9,7 +9,7 @@ public class AddressBook {
     private static Connection getConnection() {
         String URL_JD = "jdbc:mysql://127.0.0.1:3306/payrollService1?useSSL=false";
         String USER_NAME = "root";
-        String PASSWORD = "Krunali29!";
+        String PASSWORD = "";
         Connection connection = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
